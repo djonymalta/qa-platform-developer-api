@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-04-26T18:11:35" tests="0" file="cypress/integration/specs/POSTSign-in.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="POST Sign-in - Validate response attributes" timestamp="2022-04-26T18:11:37" tests="1" time="0.0000" failures="1">
+    <testcase name="POST Sign-in - Validate response attributes Should validate the API contract | POST Sign-in" time="0.0000" classname="Should validate the API contract | POST Sign-in">
+      <failure message="cy.validatePOSTSigninSchema is not a function" type="TypeError"><![CDATA[TypeError: cy.validatePOSTSigninSchema is not a function
+    at Context.eval (https://api.development.eemovel.com.br/__cypress/tests?p=cypress/integration/specs/POSTSign-in.spec.js:154:10)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

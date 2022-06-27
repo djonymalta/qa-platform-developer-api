@@ -1,0 +1,31 @@
+{
+  "name": "qa-platform-developer-api",
+  "version": "1.0.0",
+  "description": "Realização de testes automatizados na API LOGIN da plataforma Blooomberg ",
+  "main": "index.js",
+  "scripts": {
+    "esl": "eslint .",
+    "esl:fix": "eslint --fix",
+    "cy:open": "npx cypress open",
+    "delete:reports": "rm ./cypress/reports/junit/*.*",
+    "cy:run": "npx cypress run --config defaultCommandTimeout=10000 --reporter junit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djonymalta/qa-platform-developer-api.git"
+  },
+  "author": "DJONY MALTA",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^1.5.0",
+    "cypress": "^9.2.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "mocha-junit-reporter": "^2.0.0"
+  },
+  "dependencies": {
+    "eslint": "^7.32.0"
+  },
+  "bugs": {
+    "url": "https://github.com/djonymalta/qa-platform-developer-api/issues"
+  },
+  "homepage": "https://github.com/djonymalta/qa-platform-developer-api#readme"
+}

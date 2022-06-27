@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.1490" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-26T18:35:25" tests="0" file="cypress/integration/specs/POSTSign-in.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="POST Sign-in - Validate response attributes" timestamp="2022-04-26T18:35:27" tests="1" time="4.1490" failures="0">
+    <testcase name="POST Sign-in - Validate response attributes Should validate the API contract | POST Sign-in" time="4.1490" classname="Should validate the API contract | POST Sign-in">
+    </testcase>
+  </testsuite>
+</testsuites>

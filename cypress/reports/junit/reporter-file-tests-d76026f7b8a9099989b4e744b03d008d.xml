@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="4.0380" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-04-27T17:49:16" tests="0" file="cypress/integration/specs/POSTSign-in.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="POST Sign-in - Validate response attributes" timestamp="2022-04-27T17:49:18" tests="2" time="4.0380" failures="0">
+    <testcase name="POST Sign-in - Validate response attributes Should validate the API contract | POST Sign-in" time="2.9940" classname="Should validate the API contract | POST Sign-in">
+    </testcase>
+    <testcase name="POST Sign-in - Validate response attributes Should validate the Json attributes | Type | Visibility | Text | Comparation values | Others" time="1.0440" classname="Should validate the Json attributes | Type | Visibility | Text | Comparation values | Others">
+    </testcase>
+  </testsuite>
+</testsuites>

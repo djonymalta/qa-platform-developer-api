@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-04-26T18:43:16" tests="0" file="cypress/integration/specs/POSTSign-in.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="POST Sign-in - Validate response attributes" timestamp="2022-04-26T18:43:18" tests="1" time="0.0000" failures="1">
+    <testcase name="POST Sign-in - Validate response attributes Should validate the API contract | POST Sign-in" time="0.0000" classname="Should validate the API contract | POST Sign-in">
+      <failure message="no schema with key or ref &quot;http://json-schema.org/draft/2019-09/schema&quot;" type="Error"><![CDATA[Error: no schema with key or ref "http://json-schema.org/draft/2019-09/schema"
+    at Ajv.validate (https://api.development.eemovel.com.br/__cypress/tests?p=cypress/support/index.js:614:19)
+    at Ajv.validateSchema (https://api.development.eemovel.com.br/__cypress/tests?p=cypress/support/index.js:695:20)
+    at Ajv._addSchema (https://api.development.eemovel.com.br/__cypress/tests?p=cypress/support/index.js:828:10)
+    at Ajv.compile (https://api.development.eemovel.com.br/__cypress/tests?p=cypress/support/index.js:634:24)
+    at Context.eval (https://api.development.eemovel.com.br/__cypress/tests?p=cypress/support/index.js:240:26)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

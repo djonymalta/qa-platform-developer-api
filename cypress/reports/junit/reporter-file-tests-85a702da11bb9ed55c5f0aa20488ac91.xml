@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-04-26T18:32:13" tests="0" file="cypress/integration/specs/POSTSign-in.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="POST Sign-in - Validate response attributes" timestamp="2022-04-26T18:32:17" tests="1" time="0.0000" failures="1">
+    <testcase name="POST Sign-in - Validate response attributes Should validate the API contract | POST Sign-in" time="0.0000" classname="Should validate the API contract | POST Sign-in">
+      <failure message="A fixture file could not be found at any of the following paths:
+
+    &gt; cypress/fixtures/POSTSign-In-Schema
+    &gt; cypress/fixtures/POSTSign-In-Schema.[ext]
+
+Cypress looked for these file extensions at the provided path:
+
+    &gt; .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip
+
+Provide a path to an existing fixture file." type="Error"><![CDATA[Error: A fixture file could not be found at any of the following paths:
+
+    > cypress/fixtures/POSTSign-In-Schema
+    > cypress/fixtures/POSTSign-In-Schema.[ext]
+
+Cypress looked for these file extensions at the provided path:
+
+    > .json, .js, .coffee, .html, .txt, .csv, .png, .jpg, .jpeg, .gif, .tif, .tiff, .zip
+
+Provide a path to an existing fixture file.
+    at Object.<anonymous> (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/lib/fixture.js:69:30)
+    at Object.tryCatcher (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/util.js:16:23)
+    at Promise._settlePromiseFromHandler (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:547:31)
+    at Promise._settlePromise (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:604:18)
+    at Promise._settlePromise0 (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:649:10)
+    at Promise._settlePromises (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:729:18)
+    at Promise._fulfill (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/promise.js:673:18)
+    at /Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/bluebird/js/release/nodeback.js:42:21
+    at f (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/node_modules/once/once.js:25:25)
+    at Glob.<anonymous> (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:151:7)
+    at Glob.emit (node:events:394:28)
+    at Glob._finish (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:197:8)
+    at done (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:182:14)
+    at Glob._processSimple2 (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:688:12)
+    at /Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:676:10
+    at Glob._stat2 (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:772:12)
+    at lstatcb_ (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/packages/server/node_modules/glob/glob.js:764:12)
+    at RES (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/node_modules/inflight/inflight.js:31:16)
+    at f (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/node_modules/once/once.js:25:25)
+    at callback (/Users/djonymaltak/Library/Caches/Cypress/9.6.0/Cypress.app/Contents/Resources/app/node_modules/graceful-fs/polyfills.js:299:20)
+    at FSReqCallback.oncomplete (node:fs:195:21)
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
